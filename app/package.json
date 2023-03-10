@@ -1,0 +1,11 @@
+{
+  "name": "holyhack2023",
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
