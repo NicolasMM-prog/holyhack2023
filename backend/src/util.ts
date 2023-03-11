@@ -34,7 +34,7 @@ export function normalize(data: string | null | undefined): string {
         .trim()
         .replace(/&nbsp;/g, '')
         .replace(/€/, '')
-        .replace(/&amp;/, '')
+        .replace(/&amp;/, '&')
 }
 
 // Cleans the weight
