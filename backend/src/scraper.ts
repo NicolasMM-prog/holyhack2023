@@ -3,8 +3,8 @@ import got from 'got'
 
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
     return {
-        colruyt: await scrapeProductsColruyt(searchTerm),
-        ah: await scrapeProductsAH(searchTerm)
+        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm), 'colruyt'),
+        ah: removeFalses(await scrapeProductsAH(searchTerm), 'ah')
     }
 }
 
@@ -119,10 +119,7 @@ function normalizeWeight(data: string | null | undefined): number{
     return parseInt(weight)
 }
 
-function normalizePrice(data: string | null | undefined): number{ 
-    const price = (data || '').trim().replace(/€/,'') ? (data || '').trim().replace(/€/,'')![0] : '0'
-    return parseInt(price)
-}
+
 
 function removeFalses(data: Product[], shop: 'colruyt' | 'ah'): Product[] {
     if(shop == 'colruyt'){
@@ -136,7 +133,7 @@ function removeFalses(data: Product[], shop: 'colruyt' | 'ah'): Product[] {
 
 type Product = {
     title: string
-    price: string
+    price: number
     weight?: number 
     brand?: string
     priceKilo?: string

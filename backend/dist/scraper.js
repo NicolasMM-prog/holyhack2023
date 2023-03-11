@@ -56,10 +56,6 @@ function normalizeWeight(data) {
     const weight = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/)[0] : '0';
     return parseInt(weight);
 }
-function normalizePrice(data) {
-    const price = (data || '').trim().replace(/€/, '') ? (data || '').trim().replace(/€/, '')[0] : '0';
-    return parseInt(price);
-}
 function removeFalses(data, shop) {
     if (shop == 'colruyt') {
         return data.filter(product => product.price && product.brand && product.weight && product.title && product.priceKilo && product.image);
