@@ -1,5 +1,5 @@
 import got from 'got'
-import { DelhaizeAPIResponse, Product } from './scraper'
+import { DelhaizeAPIResponse, Product } from './types.js'
 
 // Custom API call for Delhaize
 export async function getAPIResponse(searchTerm: string): Promise<DelhaizeAPIResponse> {
@@ -34,6 +34,7 @@ export function normalize(data: string | null | undefined): string {
         .trim()
         .replace(/&nbsp;/g, '')
         .replace(/€/, '')
+        .replace(/&amp;/, '')
 }
 
 // Cleans the weight
