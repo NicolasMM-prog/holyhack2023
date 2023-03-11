@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Shopping Fest',
+      title: 'Shopping List',
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
@@ -48,9 +48,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> _toAddScreen(context) async {
     final result = await Navigator.push(context, MaterialPageRoute(builder: (context) => const SearchScreen()));
+      // products: [
+      //   [ProductDetails(brand: "Brand1", productName: "Product1", price: 0.1), ProductDetails(brand: "Brand2", productName: "Product2", price: 0.2)],
+      //   // [],
+      // ],
+    // )));
     if (!mounted) return;
     if (result is ShoppingItem) {
-      _addItem(result);
+      if (result.kiloPrices.isNotEmpty) {
+        _addItem(result);
+      }
     }
   }
 
@@ -59,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          IconButton(onPressed: () async { _toAddScreen(context); }, icon: const Icon(Icons.add_circle_outline), tooltip: "Add item",),
+          IconButton(onPressed: () async { _toAddScreen(context); }, icon: const Icon(Icons.add_circle_outline), tooltip: "Add item", padding: const EdgeInsets.only(right: 10),),
         ],
         title: Text(widget.title),
       ),

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class ShoppingItem {
-  ShoppingItem({required this.title, required this.kiloPrice, this.itemPrice = 0.0, this.imageUrl = "", this.brand = "",});
+  ShoppingItem({required this.kiloPrices, required this.brands, required this.stores, required this.productNames, required this.searchTerm});
 
-  double itemPrice;
-  double kiloPrice;
-  String imageUrl;
-  String brand;
-  String title;
+  List<num> kiloPrices;
+  List<String> brands;
+  List<String> stores;
+  List<String> productNames;
+  String searchTerm;
   }
 
 class OverviewItem extends StatelessWidget {
@@ -25,8 +25,12 @@ class OverviewItem extends StatelessWidget {
           padding: const EdgeInsetsDirectional.symmetric(horizontal: 25),
           child: Row(
             children: [
-              Expanded(child: Text(item.title, style: const TextStyle(fontSize: 20))),
-              Text(item.kiloPrice.toString(), style: const TextStyle(fontSize: 17)),
+              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(item.searchTerm, style: const TextStyle(fontSize: 20)),
+                  Text(item.stores.fold("", (previousValue, element) => "$previousValue - $element").substring(3), style: const TextStyle(fontSize: 13),),
+                ],
+              ),),
               Tooltip(
                 message: "Delete",
                 child: Container(

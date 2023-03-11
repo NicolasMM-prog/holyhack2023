@@ -1,9 +1,2 @@
 .DS_Store
 
-frontend/android/
-frontend/ios/
-frontend/linux/
-frontend/macos/
-frontend/test/
-frontend/web/
-frontend/windows/
