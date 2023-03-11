@@ -5,7 +5,8 @@ import { getAPIResponse } from './util.js'
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
     return {
         colruyt: removeFalses(await scrapeProductsColruyt(searchTerm), 'colruyt'),
-        ah: removeFalses(await scrapeProductsAH(searchTerm), 'ah')
+        ah: removeFalses(await scrapeProductsAH(searchTerm), 'ah'),
+        delhaize: removeFalses(await scrapeProductsDelhaize(searchTerm),'colruyt')
     }
 }
 
@@ -121,12 +122,19 @@ function normalizeWeight(data: string | null | undefined): number {
 
 
 
-function removeFalses(data: Product[], shop: 'colruyt' | 'ah'): Product[] {
+function removeFalses(data: Product[], shop: 'colruyt' | 'ah'| 'delhaize'): Product[] {
     if (shop == 'colruyt') {
         return data.filter(
             product =>
                 product.price && product.brand && product.weight && product.title && product.priceKilo && product.image,
+        )}
+
+    if (shop =='delhaize'){
+        return data.filter(
+            product =>
+                product.price && product.weight && product.title && product.priceKilo && product.image,
         )
+    
     }
     return data.filter(product => product.price && product.brand && product.weight && product.title && product.image)
 }
