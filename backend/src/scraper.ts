@@ -2,14 +2,16 @@ import * as cheerio from 'cheerio'
 import got from 'got'
 import { getAPIResponse } from './util.js'
 
+// Scrapes all stores and returns the products
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
     return {
-        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm), 'colruyt'),
-        ah: removeFalses(await scrapeProductsAH(searchTerm), 'ah'),
-        delhaize: removeFalses(await scrapeProductsDelhaize(searchTerm),'colruyt')
+        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm)),
+        ah: removeFalses(await scrapeProductsAH(searchTerm)),
+        delhaize: removeFalses(await scrapeProductsDelhaize(searchTerm))
     }
 }
 
+// Scrape the Colruyt products
 export async function scrapeProductsColruyt(searchTerm: string): Promise<Product[]> {
     const selector = '#plpProducts > div.plp__items > div.plp-products > div'
 
@@ -35,6 +37,7 @@ export async function scrapeProductsColruyt(searchTerm: string): Promise<Product
                     `${selector} > div:nth-child(${i}) > div > div.plp-item__price > div.plp-item__price-display > div > span.c-price__cent`,
                 ).html(),
             )
+
         products.push({
             title: normalize(
                 $(
@@ -46,23 +49,24 @@ export async function scrapeProductsColruyt(searchTerm: string): Promise<Product
                     `${selector} > div:nth-child(${i}) > div > div.plp-item-top > div.c-tile__data > div > div.c-product-name__brand.--plp`,
                 ).html(),
             ),
-            priceKilo: normalize(
+            priceKilo: parsePrice(normalize(
                 $(
                     `${selector} > div:nth-child(${i}) > div > div.plp-item__price > div.plp-item__price-display > div > span.product__price__weight-price > span.product__price__volume-price.s-volume-price`,
                 ).html(),
-            ),
+            )),
             image: normalize(
                 $(
                     `${selector} > div:nth-child(${i}) > div > div.plp-item-top > div.plp-item-top__image-banner-wrap > a > img`,
                 ).attr('src'),
             ),
-            price,
+            price: parsePrice(price),
         })
     }
 
     return products
 }
 
+// Scrape the Albert Heijn products
 export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
     const selector = '#search-lane > div'
 
@@ -87,27 +91,30 @@ export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
         products.push({
             title: normalize($(`${selector} > article:nth-child(${i}) > div > div > a > strong > span`).html()),
             image: normalize($(`${selector} > article:nth-child(${i}) > div > a > figure > div > img`).attr('src')),
-            weight: normalizeWeight($(`${selector} > article:nth-child(${i}) > div > a > div > div > span`).html()),
-            price,
+            price: parsePrice(price),
+            priceKilo: parsePrice(price) / normalizeWeight($(`${selector} > article:nth-child(${i}) > div > a > div > div > span`).html())
         })
     }
     return products
 }
 
+// Scrape the Delhaize products
 export async function scrapeProductsDelhaize(searchTerm: string): Promise<Product[]> {
     const res = await getAPIResponse(searchTerm)
-    console.log(JSON.stringify(res, null, 2))
     const products = res.data.productSearch.products
     return products.map(product => {
+        console.log(product.price.unitPriceFormatted)
         return {
-            priceKilo: product.price.supplementaryPriceLabel1,
+            priceKilo: parsePrice(product.price.supplementaryPriceLabel1),
             image: `https://static.delhaize.be${product.images.filter(image => image.format == 'respListGrid')[0].url}`,
             title: product.name,
-            price: product.price.unitPriceFormatted
+            price: parsePrice(product.price.unitPriceFormatted),
+            brand: product.manufacturerName
         }
     })
 }
 
+// Cleans the string to delete weird characters
 function normalize(data: string | null | undefined): string {
     return (data || '')
         .trim()
@@ -115,36 +122,28 @@ function normalize(data: string | null | undefined): string {
         .replace(/€/, '')
 }
 
+// Cleans the weight
 function normalizeWeight(data: string | null | undefined): number {
     const weight = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/)![0] : '0'
-    return parseInt(weight)
+    return parsePrice(weight)
+}
+
+// Remove empty products
+function removeFalses(data: Product[]): Product[] {
+    return data.filter(product => product.price && product.brand && product.title && product.image)
+}
+
+function parsePrice(price: string): number {
+    return parseFloat(price.replace(/,/, '.'))
 }
 
 
-
-function removeFalses(data: Product[], shop: 'colruyt' | 'ah'| 'delhaize'): Product[] {
-    if (shop == 'colruyt') {
-        return data.filter(
-            product =>
-                product.price && product.brand && product.weight && product.title && product.priceKilo && product.image,
-        )}
-
-    if (shop =='delhaize'){
-        return data.filter(
-            product =>
-                product.price && product.weight && product.title && product.priceKilo && product.image,
-        )
-    
-    }
-    return data.filter(product => product.price && product.brand && product.weight && product.title && product.image)
-}
-
+// Types
 type Product = {
     title: string
     price: number
-    weight?: number 
     brand?: string
-    priceKilo?: string
+    priceKilo?: number
     image?: string
 }
 
@@ -170,6 +169,7 @@ type APIProduct = {
     images: APIImage[]
     name: string
     price: APIPrice
+    manufacturerName: string
 }
 
 type APIImage = {
