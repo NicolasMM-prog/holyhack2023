@@ -128,9 +128,7 @@ function removeFalses(data: Product[], shop: 'colruyt' | 'ah'): Product[] {
     if(shop == 'colruyt'){
         return data.filter( product => product.price && product.brand && product.weight && product.title && product.priceKilo && product.image)
     }
-    if(shop == 'ah'){
-        return data.filter( product => product.price && product.brand && product.weight && product.title && product.image)
-    }
+    return data.filter( product => product.price && product.brand && product.weight && product.title && product.image)
 
 }
 
