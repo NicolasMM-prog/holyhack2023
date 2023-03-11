@@ -2,12 +2,12 @@ import * as cheerio from 'cheerio'
 import got from 'got'
 import { getAPIResponse } from './util.js'
 
-// Scrapes all stores and returns the products
+// Scrapes all stores and returns the products, sorted by price per kilo
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
     return {
-        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm)),
-        ah: removeFalses(await scrapeProductsAH(searchTerm)),
-        delhaize: removeFalses(await scrapeProductsDelhaize(searchTerm))
+        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo),
+        ah: removeFalses(await scrapeProductsAH(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo),
+        delhaize: removeFalses(await scrapeProductsDelhaize(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
     }
 }
 
@@ -81,20 +81,27 @@ export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
     const products = [] as Product[]
 
     for (let i = 1; i < 11; i++) {
-        const price =
+        const pricePart =
             normalize(
                 $(`${selector} > article:nth-child(${i}) > div > a > div > div > div > span:nth-child(1)`).html(),
             ) +
             ',' +
             normalize($(`${selector} > article:nth-child(${i}) > div > a > div > div > div > span:nth-child(3)`).html())
 
+        const title = normalize($(`${selector} > article:nth-child(${i}) > div > div > a > strong > span`).html())
+        const price = parsePrice(pricePart)
+        const weight = normalizeWeight($(`${selector} > article:nth-child(${i}) > div > a > div > div > span`).html())
+
         products.push({
-            title: normalize($(`${selector} > article:nth-child(${i}) > div > div > a > strong > span`).html()),
+            title,
             image: normalize($(`${selector} > article:nth-child(${i}) > div > a > figure > div > img`).attr('src')),
-            price: parsePrice(price),
-            priceKilo: parsePrice(price) / normalizeWeight($(`${selector} > article:nth-child(${i}) > div > a > div > div > span`).html())
+            price,
+            priceKilo: Math.round((price / (weight / 1000) + Number.EPSILON) * 100) / 100,
+            brand: /^AH/.test(title) ? 'AH' : undefined
         })
     }
+
+    console.log(products)
     return products
 }
 
@@ -103,7 +110,6 @@ export async function scrapeProductsDelhaize(searchTerm: string): Promise<Produc
     const res = await getAPIResponse(searchTerm)
     const products = res.data.productSearch.products
     return products.map(product => {
-        console.log(product.price.unitPriceFormatted)
         return {
             priceKilo: parsePrice(product.price.supplementaryPriceLabel1),
             image: `https://static.delhaize.be${product.images.filter(image => image.format == 'respListGrid')[0].url}`,
@@ -130,11 +136,12 @@ function normalizeWeight(data: string | null | undefined): number {
 
 // Remove empty products
 function removeFalses(data: Product[]): Product[] {
-    return data.filter(product => product.price && product.brand && product.title && product.image)
+    return data.filter(product => product.price && product.priceKilo && product.title && product.image)
 }
 
+// Replaces price commas with dots
 function parsePrice(price: string): number {
-    return parseFloat(price.replace(/,/, '.'))
+    return +parseFloat(price.replace(/,/, '.')).toFixed(2)
 }
 
 
@@ -143,8 +150,8 @@ type Product = {
     title: string
     price: number
     brand?: string
-    priceKilo?: number
-    image?: string
+    priceKilo: number
+    image: string
 }
 
 type ProductList = {

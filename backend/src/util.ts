@@ -1,6 +1,8 @@
 import got from 'got'
 import { DelhaizeAPIResponse } from './scraper'
 
+
+// Custom API call for Delhaize
 export async function getAPIResponse(searchTerm: string): Promise<DelhaizeAPIResponse> {
     const variables = {
         lang: 'nl',
