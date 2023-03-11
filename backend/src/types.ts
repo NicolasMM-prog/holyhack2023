@@ -11,7 +11,6 @@ export type ProductList = {
     colruyt: Product[]
     ah: Product[]
     delhaize: Product[]
-    best_choice: string
 }
 
 export type DelhaizeAPIResponse = {

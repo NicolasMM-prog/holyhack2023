@@ -52,3 +52,21 @@ export function removeFalses(data: Product[]): Product[] {
 export function parsePrice(price: string): number {
     return +parseFloat(price.replace(/,/, '.')).toFixed(2)
 }
+
+// Gets the cheapest product among Colruyt, Albert Heijn and Delhaize and returns in which store the product is located 
+export function getBestChoice(productsStores: Product[][]): string {
+    const average = productsStores.map(store => getAveragePrice(store))
+    const minavg = Math.min(...average) 
+    const minchoice = average.indexOf(minavg) // Store number, 0 == Colruyt, 1 == AH, 2 == Delhaize
+    
+    return minchoice == 0 ? 'Colruyt' : minchoice == 1 ? 'Albert Heijn' : 'Delhaize'
+}
+
+
+// Gets the average price in an array of prices
+export function getAveragePrice(products: Product[]): number {
+    return products.map(product => product.priceKilo).reduce(
+        (accumulator, currentValue) => accumulator + currentValue,
+        0
+    ) / products.length
+}
