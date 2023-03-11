@@ -2,8 +2,8 @@ import * as cheerio from 'cheerio';
 import got from 'got';
 export async function scrapeProducts(searchTerm) {
     return {
-        colruyt: await scrapeProductsColruyt(searchTerm),
-        ah: await scrapeProductsAH(searchTerm)
+        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm), 'colruyt'),
+        ah: removeFalses(await scrapeProductsAH(searchTerm), 'ah')
     };
 }
 export async function scrapeProductsColruyt(searchTerm) {
