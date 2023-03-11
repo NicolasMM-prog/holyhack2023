@@ -1,0 +1,77 @@
+
+> start
+> node --enable-source-maps dist/index.js
+
+Backend running!
+[
+  {
+    title: 'AH Goudse jong belegen 48+ plakken voordeel',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383432333036?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 6.29,
+    priceKilo: 15.73,
+    brand: 'AH'
+  },
+  {
+    title: 'AH Zaanlander Extra belegen 48+ plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383336343934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 4.99,
+    priceKilo: 23.21,
+    brand: 'AH'
+  },
+  {
+    title: 'AH Goudse oud 48+ plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383336343835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 3.99,
+    priceKilo: 21,
+    brand: 'AH'
+  },
+  {
+    title: 'Old Amsterdam Original 8 plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239353733343335?revLabel=78&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 4.99,
+    priceKilo: 22.18,
+    brand: undefined
+  },
+  {
+    title: 'De Zaanse Hoeve Jong belegen 48+ stuk voordeel',
+    image: 'https://static.ah.nl/dam/product/AHI_43545237303538323531?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 10.41,
+    priceKilo: 10.35,
+    brand: undefined
+  },
+  {
+    title: 'AH Zaanlander Jong belegen 48+ plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383338323531?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 4.12,
+    priceKilo: 19.62,
+    brand: 'AH'
+  },
+  {
+    title: 'AH Goudse jong 48+ plakken voordeel',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383432333031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 5.99,
+    priceKilo: 14.98,
+    brand: 'AH'
+  },
+  {
+    title: 'AH Rookkaas naturel 45+ plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383733313831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 1.99,
+    priceKilo: 14.21,
+    brand: 'AH'
+  },
+  {
+    title: 'AH Goudse jong belegen 48+ plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239383432333034?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 3.39,
+    priceKilo: 17.84,
+    brand: 'AH'
+  },
+  {
+    title: 'AH Zaanlander Jong 48+ plakken',
+    image: 'https://static.ah.nl/dam/product/AHI_43545239393137363838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary',
+    price: 3.66,
+    priceKilo: 17.43,
+    brand: 'AH'
+  }
+]
