@@ -9,7 +9,7 @@ export type Product = {
 
 export type ProductList = {
     colruyt: Product[]
-    ah: Product[]
+    albert_heijn: Product[]
     delhaize: Product[]
 }
 

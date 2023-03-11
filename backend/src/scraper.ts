@@ -6,11 +6,11 @@ import { getAPIResponse, normalize, normalizeWeight, parsePrice, removeFalses } 
 // Scrapes all stores and returns the products, sorted by price per kilo
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
     const colruyt = removeFalses(await scrapeProductsColruyt(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
-    const ah = removeFalses(await scrapeProductsAH(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
+    const albert_heijn = removeFalses(await scrapeProductsAH(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
     const delhaize = removeFalses(await scrapeProductsDelhaize(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
     return {
         colruyt,
-        ah,
+        albert_heijn,
         delhaize,
     }
 }
