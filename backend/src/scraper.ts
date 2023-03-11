@@ -120,7 +120,7 @@ function normalizeWeight(data: string | null | undefined): number{
 }
 
 function normalizePrice(data: string | null | undefined): number{ 
-    const price = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/) : '0'
+    const price = (data || '').trim().replace(/€ /,'') ? (data || '').trim().replace(/€ /,'')![0] : '0'
     return parseInt(price)
 }
 
