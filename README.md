@@ -22,5 +22,6 @@ It validates and cleans the product names and sends them to the frontend in a fo
 This app can be expanded in unlimited ways. Some ideas include syncing between devices and sharing shopping lists, as well as
 creating a route to the supermarkets. The possibilities are endless, and this repository contains the most important parts to showcase the project.
 
+## Concluding notes
 
-
+We wanted to create an app which displays a live version of each supermarket's prices and products. Therefore, no product info is hardcoded as it is fetched from live websites. While this project still needs improvement, we managed to create a working prototype with no dummy data whatsoever.
