@@ -1,0 +1,4 @@
+export function start() {
+    console.log('Hello world!');
+}
+//# sourceMappingURL=app.js.map
