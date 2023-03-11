@@ -1,7 +1,7 @@
 # HOLY HACK 2023
 
 This project is Binary Bandit's entry for 2023's edition of Holy Hack, organised by Academics For Technology. 
-The challenge set upon by Easi was to develop a product, device or service that creates a new or improved form of insurance or financial tool for businesses and consumers based on challenges and opportunities within the Fintech industry. 
+The challenge set upon by Easi was to develop a product, device or service that creates a new or improved form of insurance or financial tool for businesses and consumers based on challenges and opportunities within the fintech industry. 
 One such challenge is the lack of mobile app development expertise in the fintech industry.
 Binary Bandits's solution is ShopCheap, a mobile app that aims to optimize cost-effective grocery shopping by providing a detailed overview of grocery products across common Belgian supermarkets such as Delhaize, Colruyt and Albert Heijn. 
 
@@ -14,7 +14,7 @@ This data is then displayed for the customer in the app, giving the option to ac
 ## Backend 
 
 Grocery data from the three biggest supermarkets (Colruyt, Albert Heijn and Delhaize) is fetched by the Typescript backend.
-The most relevant items are saved by product name, brand, price, weight and price per kilo or liter. They are then sorted by price per kilogram and per supermarket. 
+The most relevant items are saved by product name, brand, price, weight and price per kilo or liter. They are then sorted by price per kilogram and by supermarket. 
 It validates and cleans the product names and sends them to the frontend in a format it understands.
 
 ## Future ideas
