@@ -1,0 +1,5198 @@
+
+> start
+> node --enable-source-maps dist/index.js
+
+Backend running!
+{
+  "data": {
+    "productSearch": {
+      "products": [
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Delhaize",
+          "manufacturerSubBrandName": null,
+          "code": "F2009122900150300000",
+          "badges": [
+            {
+              "code": "badgeproductislittlelion",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h56/h2d/11819964268574.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": "Kleine Leeuw, kleine prijs",
+              "name": null,
+              "__typename": "ProductBadge"
+            },
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": false,
+          "littleLion": true,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h17/h1a/11438540881950.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h3e/h45/11438540816414.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h47/h29/11438541144094.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h1f/hae/11438540750878.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Gouda | Jong | Sneden",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€3,35",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "10,15 €/kg",
+            "supplementaryPriceLabel2": "330 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€3,35",
+            "discountedUnitPriceFormatted": "3,35 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "3,35",
+            "unitCode": "pieces",
+            "unitPrice": 3.35,
+            "value": 3.35,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Sneden/Gouda-Jong-Sneden/p/F2009122900150300000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "365",
+          "manufacturerSubBrandName": null,
+          "code": "F2017122200371170000",
+          "badges": [
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": null,
+          "littleLion": null,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hae/h40/11531638046750.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hd5/h37/11531637981214.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h4f/hee/11531638308894.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hc2/he8/11531637915678.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Kaas | Gouda | Jong | Sneden",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€3,89",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "7,78 €/kg",
+            "supplementaryPriceLabel2": "500 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€3,89",
+            "discountedUnitPriceFormatted": "3,89 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "3,89",
+            "unitCode": "pieces",
+            "unitPrice": 3.89,
+            "value": 3.89,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Sneden/Kaas-Gouda-Jong-Sneden/p/F2017122200371170000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Delhaize",
+          "manufacturerSubBrandName": null,
+          "code": "F2009122900132900000",
+          "badges": [
+            {
+              "code": "badgeproductislittlelion",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h56/h2d/11819964268574.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": "Kleine Leeuw, kleine prijs",
+              "name": null,
+              "__typename": "ProductBadge"
+            },
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": false,
+          "littleLion": true,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hc9/h6e/11438047068190.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hc4/h3c/11438047002654.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hd1/h12/11438047330334.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h31/hcf/11438046937118.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Gouda | Jong | Sneden | Maxi Pack",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€4,39",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "8,78 €/kg",
+            "supplementaryPriceLabel2": "500 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€4,39",
+            "discountedUnitPriceFormatted": "4,39 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "4,39",
+            "unitCode": "pieces",
+            "unitPrice": 4.39,
+            "value": 4.39,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Sneden/Gouda-Jong-Sneden-Maxi-Pack/p/F2009122900132900000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Delhaize",
+          "manufacturerSubBrandName": null,
+          "code": "F2018070600020220000",
+          "badges": [
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": null,
+          "littleLion": null,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/ha9/h4a/11452039430174.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h7c/he1/11452039364638.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/he7/h91/11452039692318.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h72/ha2/11452039299102.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Parmigiano reggiano | BOB",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€2,19",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "21,90 €/kg",
+            "supplementaryPriceLabel2": "100 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€2,19",
+            "discountedUnitPriceFormatted": "2,19 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "2,19",
+            "unitCode": "pieces",
+            "unitPrice": 2.19,
+            "value": 2.19,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Geraspt/Parmigiano-reggiano-BOB/p/F2018070600020220000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Delhaize",
+          "manufacturerSubBrandName": null,
+          "code": "F2013020800748700000",
+          "badges": [
+            {
+              "code": "badgeproductislittlelion",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h56/h2d/11819964268574.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": "Kleine Leeuw, kleine prijs",
+              "name": null,
+              "__typename": "ProductBadge"
+            },
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": false,
+          "littleLion": true,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hcb/h8e/11765860696094.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hc6/h5c/11765860630558.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hdd/he7/11765860958238.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hd7/hd8/11765860565022.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Gouda | Jong | Sneden",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€3,49",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "11,63 €/kg",
+            "supplementaryPriceLabel2": "300 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€3,49",
+            "discountedUnitPriceFormatted": "3,49 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "3,49",
+            "unitCode": "pieces",
+            "unitPrice": 3.49,
+            "value": 3.49,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Sneden/Gouda-Jong-Sneden/p/F2013020800748700000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "365",
+          "manufacturerSubBrandName": null,
+          "code": "F1981081800140300000",
+          "badges": [
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": null,
+          "littleLion": null,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hdf/h00/11249236836382.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h14/h22/11249236770846.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h64/hc9/11249237098526.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/heb/h4a/11249236705310.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Verse kaas | Mager",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€0,79",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "1,58 €/kg",
+            "supplementaryPriceLabel2": "500 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€0,79",
+            "discountedUnitPriceFormatted": "0,79 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "0,79",
+            "unitCode": "pieces",
+            "unitPrice": 0.79,
+            "value": 0.79,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Yoghurt-en-alternatieven/Verse-kaas/Verse-kaas-Mager/p/F1981081800140300000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "A",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Delhaize",
+          "manufacturerSubBrandName": null,
+          "code": "F2004022600146200000",
+          "badges": [
+            {
+              "code": "badgeproductislittlelion",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h56/h2d/11819964268574.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": "Kleine Leeuw, kleine prijs",
+              "name": null,
+              "__typename": "ProductBadge"
+            },
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": false,
+          "littleLion": true,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hf7/he4/11438631321630.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hfb/h54/11438631256094.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h34/h09/11438631583774.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hc6/h33/11438631190558.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Verse kaasspecialiteit | Stracciatella",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€0,52",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "3,47 €/kg",
+            "supplementaryPriceLabel2": "150 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€0,52",
+            "discountedUnitPriceFormatted": "0,52 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "0,52",
+            "unitCode": "pieces",
+            "unitPrice": 0.52,
+            "value": 0.52,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Yoghurt-en-alternatieven/Fruit/Verse-kaasspecialiteit-Stracciatella/p/F2004022600146200000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "C",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Danio",
+          "manufacturerSubBrandName": "Crunchy",
+          "code": "F2019111200046490000",
+          "badges": [],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": null,
+          "littleLion": null,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/ha3/hdd/11735004708894.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h12/h51/11735004643358.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h7d/h01/11735004971038.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h16/h85/11735004577822.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 30,
+          "limitedAssortment": null,
+          "name": "Verse Kaas Specialiteit | Speculoos",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€2,59",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "15,89 €/kg",
+            "supplementaryPriceLabel2": "163 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€2,59",
+            "discountedUnitPriceFormatted": "2,59 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "2,59",
+            "unitCode": "pieces",
+            "unitPrice": 2.59,
+            "value": 2.59,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Yoghurt-en-alternatieven/Fruit/Verse-Kaas-Specialiteit-Speculoos/p/F2019111200046490000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "B",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "365",
+          "manufacturerSubBrandName": null,
+          "code": "F2020060900060200000",
+          "badges": [
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": null,
+          "littleLion": null,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hdb/h00/11706857160734.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h31/hc5/11706857095198.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h26/hd0/11706857422878.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h32/h64/11706857029662.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Emmental | Geraspt",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€1,65",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "8,25 €/kg",
+            "supplementaryPriceLabel2": "200 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€1,65",
+            "discountedUnitPriceFormatted": "1,65 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "1,65",
+            "unitCode": "pieces",
+            "unitPrice": 1.65,
+            "value": 1.65,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Geraspt/Emmental-Geraspt/p/F2020060900060200000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        },
+        {
+          "available": true,
+          "averageRating": null,
+          "numberOfReviews": null,
+          "manufacturerName": "Delhaize",
+          "manufacturerSubBrandName": null,
+          "code": "F2018070600020160000",
+          "badges": [
+            {
+              "code": "badgeproductisdelhaize",
+              "image": {
+                "altText": null,
+                "format": null,
+                "galleryIndex": null,
+                "imageType": null,
+                "url": "/medias/sys_master/h88/hc1/10865836851230.png",
+                "__typename": "Image"
+              },
+              "tooltipMessage": null,
+              "name": null,
+              "__typename": "ProductBadge"
+            }
+          ],
+          "badgeBrand": null,
+          "promoBadges": null,
+          "delivered": null,
+          "littleLion": null,
+          "freshnessDuration": 0,
+          "freshnessDurationTipFormatted": "Dit product zal 0 dagen vers blijven",
+          "frozen": false,
+          "recyclable": false,
+          "images": [
+            {
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h8e/h5a/11212921995294.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "thumbnailGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h5e/h7e/11212921929758.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "respListGrid",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/hbb/h1a/11212922257438.jpg",
+              "__typename": "Image"
+            },
+            {
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "/medias/sys_master/h82/h10/11212921864222.jpg",
+              "__typename": "Image"
+            }
+          ],
+          "maxOrderQuantity": 250,
+          "limitedAssortment": null,
+          "name": "Grana padano | BOB",
+          "onlineExclusive": false,
+          "potentialPromotions": [],
+          "price": {
+            "approximatePriceSymbol": "+/-",
+            "currencySymbol": "€",
+            "formattedValue": "€1,89",
+            "priceType": "BUY",
+            "supplementaryPriceLabel1": "18,90 €/kg",
+            "supplementaryPriceLabel2": "100 gr",
+            "showStrikethroughPrice": false,
+            "discountedPriceFormatted": "€1,89",
+            "discountedUnitPriceFormatted": "1,89 €/kg",
+            "unit": "piece",
+            "unitPriceFormatted": "1,89",
+            "unitCode": "pieces",
+            "unitPrice": 1.89,
+            "value": 1.89,
+            "__typename": "Price"
+          },
+          "purchasable": null,
+          "productProposedPackaging": 1,
+          "productProposedPackaging2": null,
+          "stock": {
+            "inStock": true,
+            "inStockBeforeMaxAdvanceOrderingDate": false,
+            "partiallyInStock": false,
+            "availableFromDate": null,
+            "__typename": "Stock"
+          },
+          "url": "/nl/shop/Zuivel-en-kaas/Kazen/Geraspt/Grana-padano-BOB/p/F2018070600020160000",
+          "previouslyBought": null,
+          "nutriScoreLetter": "D",
+          "isLowPriceGuarantee": null,
+          "freeGift": null,
+          "plasticFee": null,
+          "__typename": "Product"
+        }
+      ],
+      "breadcrumbs": [],
+      "facets": [
+        {
+          "code": "firstLevelCategories",
+          "name": "Categorie",
+          "category": false,
+          "facetUiType": "LONG_MULTI_SELECT_LIST",
+          "values": [
+            {
+              "code": "v2DAI",
+              "count": 1020,
+              "name": "Zuivel en kaas",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2DAI",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2DRI",
+              "count": 146,
+              "name": "Dranken en alcohol",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2DRI",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2SPE",
+              "count": 127,
+              "name": "Bewuste voeding",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2SPE",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2BIO",
+              "count": 96,
+              "name": "Bio, Eco en Fairtrade",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2BIO",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2FRO",
+              "count": 11,
+              "name": "Diepvries",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2FRO",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2DEL",
+              "count": 9,
+              "name": "Traiteur en verse aperitiefhapjes",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2DEL",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2SAL",
+              "count": 9,
+              "name": "Zoute kruidenierswaren",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2SAL",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2MEA",
+              "count": 7,
+              "name": "Vlees, vis en vegetarische producten",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2MEA",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2PET",
+              "count": 5,
+              "name": "Huisdieren",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2PET",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2SWE",
+              "count": 5,
+              "name": "Zoete kruidenierswaren",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2SWE",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "v2CAN",
+              "count": 1,
+              "name": "Conserven",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:firstLevelCategories:v2CAN",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "offers",
+          "name": "Aanbiedingen",
+          "category": false,
+          "facetUiType": "QUICK_FILTER",
+          "values": [
+            {
+              "code": "true",
+              "count": 44,
+              "name": "true",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:offers:true",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "ownBrands",
+          "name": "Delhaize merken",
+          "category": false,
+          "facetUiType": "QUICK_FILTER",
+          "values": [
+            {
+              "code": "true",
+              "count": 319,
+              "name": "true",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:ownBrands:true",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "budgetRangeFacet",
+          "name": "Prijs",
+          "category": false,
+          "facetUiType": "LONG_MULTI_SELECT_LIST",
+          "values": [
+            {
+              "code": "Van 0 tot 5 euro",
+              "count": 860,
+              "name": "Van 0 tot 5 euro",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:budgetRangeFacet:Van+0+tot+5+euro",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Van 5 tot 10 euro",
+              "count": 184,
+              "name": "Van 5 tot 10 euro",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:budgetRangeFacet:Van+5+tot+10+euro",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Van 10 tot 20 euro",
+              "count": 20,
+              "name": "Van 10 tot 20 euro",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:budgetRangeFacet:Van+10+tot+20+euro",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "littleLion",
+          "name": "Kleine Leeuw, kleine prijs",
+          "category": false,
+          "facetUiType": "QUICK_FILTER",
+          "values": [
+            {
+              "code": "true",
+              "count": 61,
+              "name": "true",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:littleLion:true",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "manufacturerNameFacet",
+          "name": "Merk",
+          "category": false,
+          "facetUiType": null,
+          "values": [
+            {
+              "code": "Delhaize",
+              "count": 276,
+              "name": "Delhaize",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Delhaize",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Taste of Inspirations",
+              "count": 13,
+              "name": "Taste of Inspirations",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Taste+of+Inspirations",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "365",
+              "count": 30,
+              "name": "365",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:365",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "'t Leenhof",
+              "count": 1,
+              "name": "'t Leenhof",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:%26%23x27%3Bt+Leenhof",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Abbot Kinney's",
+              "count": 5,
+              "name": "Abbot Kinney's",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Abbot+Kinney%26%23x27%3Bs",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Actimel",
+              "count": 13,
+              "name": "Actimel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Actimel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Activia",
+              "count": 20,
+              "name": "Activia",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Activia",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Alambra",
+              "count": 1,
+              "name": "Alambra",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Alambra",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Alpro",
+              "count": 66,
+              "name": "Alpro",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Alpro",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Apetina",
+              "count": 2,
+              "name": "Apetina",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Apetina",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Apéricube",
+              "count": 5,
+              "name": "Apéricube",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Ap%C3%A9ricube",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Arla",
+              "count": 13,
+              "name": "Arla",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Arla",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Aubel",
+              "count": 2,
+              "name": "Aubel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Aubel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Auricchio",
+              "count": 1,
+              "name": "Auricchio",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Auricchio",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Averbode",
+              "count": 1,
+              "name": "Averbode",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Averbode",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Babybel",
+              "count": 4,
+              "name": "Babybel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Babybel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Badoz",
+              "count": 1,
+              "name": "Badoz",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Badoz",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Balade",
+              "count": 16,
+              "name": "Balade",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Balade",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Beaumont",
+              "count": 2,
+              "name": "Beaumont",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Beaumont",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Becel",
+              "count": 6,
+              "name": "Becel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Becel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Beemster",
+              "count": 2,
+              "name": "Beemster",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Beemster",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Benecol",
+              "count": 4,
+              "name": "Benecol",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Benecol",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Berloumi",
+              "count": 1,
+              "name": "Berloumi",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Berloumi",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Bertolli",
+              "count": 3,
+              "name": "Bertolli",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Bertolli",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Bioferme",
+              "count": 1,
+              "name": "Bioferme",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Bioferme",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Bodart",
+              "count": 1,
+              "name": "Bodart",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Bodart",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Boursin",
+              "count": 8,
+              "name": "Boursin",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Boursin",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Brugge",
+              "count": 9,
+              "name": "Brugge",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Brugge",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Bruggeman",
+              "count": 1,
+              "name": "Bruggeman",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Bruggeman",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Bumba",
+              "count": 2,
+              "name": "Bumba",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Bumba",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Campina",
+              "count": 17,
+              "name": "Campina",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Campina",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Caprice des Dieux",
+              "count": 4,
+              "name": "Caprice des Dieux",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Caprice+des+Dieux",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Carlsbourg",
+              "count": 11,
+              "name": "Carlsbourg",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Carlsbourg",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Carré Frais",
+              "count": 1,
+              "name": "Carré Frais",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Carr%C3%A9+Frais",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Catisfactions",
+              "count": 3,
+              "name": "Catisfactions",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Catisfactions",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "cbrand",
+              "count": 1,
+              "name": "cbrand",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:cbrand",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chalet",
+              "count": 3,
+              "name": "Chalet",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chalet",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chaumes",
+              "count": 4,
+              "name": "Chaumes",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chaumes",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chavignol",
+              "count": 1,
+              "name": "Chavignol",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chavignol",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chavroux",
+              "count": 5,
+              "name": "Chavroux",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chavroux",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Cheetos",
+              "count": 1,
+              "name": "Cheetos",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Cheetos",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chimay",
+              "count": 1,
+              "name": "Chimay",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chimay",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chimay Sélection",
+              "count": 4,
+              "name": "Chimay Sélection",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chimay+S%C3%A9lection",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Chizou",
+              "count": 2,
+              "name": "Chizou",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Chizou",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "ChèvrArdennes",
+              "count": 1,
+              "name": "ChèvrArdennes",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Ch%C3%A8vrArdennes",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Columbus",
+              "count": 3,
+              "name": "Columbus",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Columbus",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Come A Casa",
+              "count": 1,
+              "name": "Come A Casa",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Come+A+Casa",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Cécémel",
+              "count": 12,
+              "name": "Cécémel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:C%C3%A9c%C3%A9mel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Dan Up",
+              "count": 2,
+              "name": "Dan Up",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Dan+Up",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Danacol",
+              "count": 1,
+              "name": "Danacol",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Danacol",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Danerolles",
+              "count": 2,
+              "name": "Danerolles",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Danerolles",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Danette",
+              "count": 10,
+              "name": "Danette",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Danette",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Danio",
+              "count": 15,
+              "name": "Danio",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Danio",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Danone",
+              "count": 17,
+              "name": "Danone",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Danone",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Danonino",
+              "count": 4,
+              "name": "Danonino",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Danonino",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "De Lelie",
+              "count": 5,
+              "name": "De Lelie",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:De+Lelie",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "De Zuivelarij",
+              "count": 1,
+              "name": "De Zuivelarij",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:De+Zuivelarij",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Deli Melo",
+              "count": 1,
+              "name": "Deli Melo",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Deli+Melo",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Dilea",
+              "count": 16,
+              "name": "Dilea",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Dilea",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Dixmuda",
+              "count": 1,
+              "name": "Dixmuda",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Dixmuda",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Dodoni",
+              "count": 3,
+              "name": "Dodoni",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Dodoni",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Dr. oetker",
+              "count": 1,
+              "name": "Dr. oetker",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Dr.+oetker",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Dream",
+              "count": 1,
+              "name": "Dream",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Dream",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Edendi",
+              "count": 1,
+              "name": "Edendi",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Edendi",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Effi",
+              "count": 1,
+              "name": "Effi",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Effi",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Eke",
+              "count": 1,
+              "name": "Eke",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Eke",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Elle & Vire",
+              "count": 1,
+              "name": "Elle & Vire",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Elle+%26+Vire",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Emmi",
+              "count": 4,
+              "name": "Emmi",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Emmi",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Entremont",
+              "count": 9,
+              "name": "Entremont",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Entremont",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Fage",
+              "count": 8,
+              "name": "Fage",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Fage",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Fairebel",
+              "count": 4,
+              "name": "Fairebel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Fairebel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Fama",
+              "count": 2,
+              "name": "Fama",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Fama",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Fattorie Garofalo",
+              "count": 3,
+              "name": "Fattorie Garofalo",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Fattorie+Garofalo",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Ferme bois du roi",
+              "count": 1,
+              "name": "Ferme bois du roi",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Ferme+bois+du+roi",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Fristi",
+              "count": 4,
+              "name": "Fristi",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Fristi",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Fromager d'Affinois",
+              "count": 1,
+              "name": "Fromager d'Affinois",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Fromager+d%26%23x27%3BAffinois",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Galbani",
+              "count": 10,
+              "name": "Galbani",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Galbani",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Garcia Baquero",
+              "count": 1,
+              "name": "Garcia Baquero",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Garcia+Baquero",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Garden Gourmet",
+              "count": 1,
+              "name": "Garden Gourmet",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Garden+Gourmet",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Geal",
+              "count": 2,
+              "name": "Geal",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Geal",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Gillot",
+              "count": 2,
+              "name": "Gillot",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Gillot",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Grandioso",
+              "count": 2,
+              "name": "Grandioso",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Grandioso",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "GTA",
+              "count": 1,
+              "name": "GTA",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:GTA",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Heks'nkaas",
+              "count": 1,
+              "name": "Heks'nkaas",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Heks%26%23x27%3Bnkaas",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Herta",
+              "count": 4,
+              "name": "Herta",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Herta",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Herve",
+              "count": 1,
+              "name": "Herve",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Herve",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Hipp",
+              "count": 1,
+              "name": "Hipp",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Hipp",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "HiPRO",
+              "count": 6,
+              "name": "HiPRO",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:HiPRO",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Hipro",
+              "count": 2,
+              "name": "Hipro",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Hipro",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Iglo",
+              "count": 4,
+              "name": "Iglo",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Iglo",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Inex",
+              "count": 6,
+              "name": "Inex",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Inex",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Inza",
+              "count": 2,
+              "name": "Inza",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Inza",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Isigny Sainte-Mère",
+              "count": 1,
+              "name": "Isigny Sainte-Mère",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Isigny+Sainte-M%C3%A8re",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Joyvalle",
+              "count": 4,
+              "name": "Joyvalle",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Joyvalle",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Katharos",
+              "count": 2,
+              "name": "Katharos",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Katharos",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Kerry Cheestrings",
+              "count": 1,
+              "name": "Kerry Cheestrings",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Kerry+Cheestrings",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Kerrygold",
+              "count": 1,
+              "name": "Kerrygold",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Kerrygold",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Kinder",
+              "count": 3,
+              "name": "Kinder",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Kinder",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Kiri",
+              "count": 3,
+              "name": "Kiri",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Kiri",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Knorr",
+              "count": 1,
+              "name": "Knorr",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Knorr",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Kraft",
+              "count": 1,
+              "name": "Kraft",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Kraft",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "L'Exquis",
+              "count": 1,
+              "name": "L'Exquis",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:L%26%23x27%3BExquis",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "La Bonne vache",
+              "count": 1,
+              "name": "La Bonne vache",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:La+Bonne+vache",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "La Fermière",
+              "count": 6,
+              "name": "La Fermière",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:La+Fermi%C3%A8re",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "LA FRUITIERE D'ARBUSIGNY",
+              "count": 1,
+              "name": "LA FRUITIERE D'ARBUSIGNY",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:LA+FRUITIERE+D%26%23x27%3BARBUSIGNY",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "La Laitière",
+              "count": 17,
+              "name": "La Laitière",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:La+Laiti%C3%A8re",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "La Vache qui rit",
+              "count": 8,
+              "name": "La Vache qui rit",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:La+Vache+qui+rit",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "La Vache qui Rit",
+              "count": 1,
+              "name": "La Vache qui Rit",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:La+Vache+qui+Rit",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Lactel",
+              "count": 4,
+              "name": "Lactel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Lactel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Laiterie des Ardennes",
+              "count": 1,
+              "name": "Laiterie des Ardennes",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Laiterie+des+Ardennes",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Lay's",
+              "count": 2,
+              "name": "Lay's",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Lay%26%23x27%3Bs",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Le Larry",
+              "count": 3,
+              "name": "Le Larry",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Le+Larry",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Le Rustique",
+              "count": 5,
+              "name": "Le Rustique",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Le+Rustique",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Le vieux pané",
+              "count": 1,
+              "name": "Le vieux pané",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Le+vieux+pan%C3%A9",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Leerdammer",
+              "count": 7,
+              "name": "Leerdammer",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Leerdammer",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "LIGHT & FREE",
+              "count": 5,
+              "name": "LIGHT & FREE",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:LIGHT+%26+FREE",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Lincet",
+              "count": 1,
+              "name": "Lincet",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Lincet",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Lindahls",
+              "count": 2,
+              "name": "Lindahls",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Lindahls",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "LU",
+              "count": 2,
+              "name": "LU",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:LU",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Luxlait",
+              "count": 1,
+              "name": "Luxlait",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Luxlait",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Marcel Petite",
+              "count": 1,
+              "name": "Marcel Petite",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Marcel+Petite",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Maredsous",
+              "count": 17,
+              "name": "Maredsous",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Maredsous",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Marie Morin",
+              "count": 2,
+              "name": "Marie Morin",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Marie+Morin",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Materne",
+              "count": 2,
+              "name": "Materne",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Materne",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Matocq",
+              "count": 1,
+              "name": "Matocq",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Matocq",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Meggle",
+              "count": 2,
+              "name": "Meggle",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Meggle",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Melkunie",
+              "count": 6,
+              "name": "Melkunie",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Melkunie",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Mevgal",
+              "count": 3,
+              "name": "Mevgal",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Mevgal",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Michel et Augustin",
+              "count": 1,
+              "name": "Michel et Augustin",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Michel+et+Augustin",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Mini Babybel",
+              "count": 2,
+              "name": "Mini Babybel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Mini+Babybel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Miracoli",
+              "count": 1,
+              "name": "Miracoli",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Miracoli",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Mondolatte",
+              "count": 2,
+              "name": "Mondolatte",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Mondolatte",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Munster",
+              "count": 1,
+              "name": "Munster",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Munster",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Nestlé",
+              "count": 7,
+              "name": "Nestlé",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Nestl%C3%A9",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "No fairytales",
+              "count": 3,
+              "name": "No fairytales",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:No+fairytales",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Nurishh",
+              "count": 7,
+              "name": "Nurishh",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Nurishh",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Nutroma",
+              "count": 4,
+              "name": "Nutroma",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Nutroma",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Oatly",
+              "count": 5,
+              "name": "Oatly",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Oatly",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Oikos",
+              "count": 16,
+              "name": "Oikos",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Oikos",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Olympia",
+              "count": 1,
+              "name": "Olympia",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Olympia",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Orkney",
+              "count": 1,
+              "name": "Orkney",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Orkney",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pa'lais",
+              "count": 4,
+              "name": "Pa'lais",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Pa%26%23x27%3Blais",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Papillon",
+              "count": 1,
+              "name": "Papillon",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Papillon",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Parmareggio",
+              "count": 1,
+              "name": "Parmareggio",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Parmareggio",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Paschka",
+              "count": 1,
+              "name": "Paschka",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Paschka",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Passendale",
+              "count": 4,
+              "name": "Passendale",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Passendale",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Paysan Breton",
+              "count": 5,
+              "name": "Paysan Breton",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Paysan+Breton",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Philadelphia",
+              "count": 9,
+              "name": "Philadelphia",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Philadelphia",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "PHILADELPHIA",
+              "count": 1,
+              "name": "PHILADELPHIA",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:PHILADELPHIA",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Picandine",
+              "count": 1,
+              "name": "Picandine",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Picandine",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pié d'Angloys",
+              "count": 1,
+              "name": "Pié d'Angloys",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Pi%C3%A9+d%26%23x27%3BAngloys",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Planta",
+              "count": 3,
+              "name": "Planta",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Planta",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "POCHAT & FILS",
+              "count": 1,
+              "name": "POCHAT & FILS",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:POCHAT+%26+FILS",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pont Evèque",
+              "count": 1,
+              "name": "Pont Evèque",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Pont+Ev%C3%A8que",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Ponthier",
+              "count": 1,
+              "name": "Ponthier",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Ponthier",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "POSTEL",
+              "count": 1,
+              "name": "POSTEL",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:POSTEL",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pro Activ",
+              "count": 3,
+              "name": "Pro Activ",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Pro+Activ",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Provamel",
+              "count": 3,
+              "name": "Provamel",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Provamel",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Président",
+              "count": 12,
+              "name": "Président",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Pr%C3%A9sident",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pur Natur",
+              "count": 18,
+              "name": "Pur Natur",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Pur+Natur",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Père Joseph",
+              "count": 2,
+              "name": "Père Joseph",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:P%C3%A8re+Joseph",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pérail",
+              "count": 1,
+              "name": "Pérail",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:P%C3%A9rail",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Rambol",
+              "count": 1,
+              "name": "Rambol",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Rambol",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Rians",
+              "count": 1,
+              "name": "Rians",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Rians",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Régilait",
+              "count": 1,
+              "name": "Régilait",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:R%C3%A9gilait",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Salakis",
+              "count": 3,
+              "name": "Salakis",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Salakis",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Services Compris",
+              "count": 2,
+              "name": "Services Compris",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Services+Compris",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Société",
+              "count": 1,
+              "name": "Société",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Soci%C3%A9t%C3%A9",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Soignon",
+              "count": 1,
+              "name": "Soignon",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Soignon",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Solo",
+              "count": 6,
+              "name": "Solo",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Solo",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "St Môret",
+              "count": 4,
+              "name": "St Môret",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:St+M%C3%B4ret",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Starbucks",
+              "count": 4,
+              "name": "Starbucks",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Starbucks",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "The Flower Farm",
+              "count": 3,
+              "name": "The Flower Farm",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:The+Flower+Farm",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Tiptoh",
+              "count": 3,
+              "name": "Tiptoh",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Tiptoh",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Unbranded",
+              "count": 2,
+              "name": "Unbranded",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Unbranded",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Vache Bleue",
+              "count": 4,
+              "name": "Vache Bleue",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Vache+Bleue",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Val d'Arve",
+              "count": 1,
+              "name": "Val d'Arve",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Val+d%26%23x27%3BArve",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Val-Dieu",
+              "count": 1,
+              "name": "Val-Dieu",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Val-Dieu",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Violife",
+              "count": 1,
+              "name": "Violife",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Violife",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Vitalac",
+              "count": 2,
+              "name": "Vitalac",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Vitalac",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Vitalinea",
+              "count": 7,
+              "name": "Vitalinea",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Vitalinea",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Vitelma",
+              "count": 2,
+              "name": "Vitelma",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Vitelma",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Wagner",
+              "count": 1,
+              "name": "Wagner",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Wagner",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Werbomont",
+              "count": 1,
+              "name": "Werbomont",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Werbomont",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Westland",
+              "count": 1,
+              "name": "Westland",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Westland",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Whiskas",
+              "count": 1,
+              "name": "Whiskas",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Whiskas",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Yakult",
+              "count": 1,
+              "name": "Yakult",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Yakult",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Yoplait",
+              "count": 7,
+              "name": "Yoplait",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Yoplait",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Yuma",
+              "count": 1,
+              "name": "Yuma",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Yuma",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Ziz",
+              "count": 1,
+              "name": "Ziz",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Ziz",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Zott",
+              "count": 2,
+              "name": "Zott",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:Zott",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Öing",
+              "count": 2,
+              "name": "Öing",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:manufacturerNameFacet:%C3%96ing",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "allergyDoesNotContain",
+          "name": "Allergenen",
+          "category": false,
+          "facetUiType": null,
+          "values": [
+            {
+              "code": "Gluten",
+              "count": 325,
+              "name": "Zonder Gluten",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Gluten",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Eieren",
+              "count": 285,
+              "name": "Zonder Eieren",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Eieren",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Lupine",
+              "count": 331,
+              "name": "Zonder Lupine",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Lupine",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Melk",
+              "count": 76,
+              "name": "Zonder Melk",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Melk",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Mosterd",
+              "count": 316,
+              "name": "Zonder Mosterd",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Mosterd",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Noten",
+              "count": 312,
+              "name": "Zonder Noten",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Noten",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Pindanoten",
+              "count": 345,
+              "name": "Zonder Pindanoten",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Pindanoten",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Schaaldieren",
+              "count": 325,
+              "name": "Zonder Schaaldieren",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Schaaldieren",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Selderij",
+              "count": 320,
+              "name": "Zonder Selderij",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Selderij",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Sesamzaad",
+              "count": 319,
+              "name": "Zonder Sesamzaad",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Sesamzaad",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Soja",
+              "count": 290,
+              "name": "Zonder Soja",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Soja",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Vis",
+              "count": 321,
+              "name": "Zonder Vis",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Vis",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Weekdieren",
+              "count": 325,
+              "name": "Zonder Weekdieren",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Weekdieren",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "Zwaveldioxide of sulfieten",
+              "count": 322,
+              "name": "Zonder Zwaveldioxide of sulfieten",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:allergyDoesNotContain:Zwaveldioxide+of+sulfieten",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "isBio",
+          "name": "Bio",
+          "category": false,
+          "facetUiType": "QUICK_FILTER",
+          "values": [
+            {
+              "code": "true",
+              "count": 85,
+              "name": "true",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:isBio:true",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        },
+        {
+          "code": "NutriscoreLetter",
+          "name": "Nutriscore",
+          "category": false,
+          "facetUiType": null,
+          "values": [
+            {
+              "code": "A",
+              "count": 130,
+              "name": "A",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:NutriscoreLetter:A",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "B",
+              "count": 232,
+              "name": "B",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:NutriscoreLetter:B",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "C",
+              "count": 130,
+              "name": "C",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:NutriscoreLetter:C",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "D",
+              "count": 329,
+              "name": "D",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:NutriscoreLetter:D",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            },
+            {
+              "code": "E",
+              "count": 57,
+              "name": "E",
+              "query": {
+                "query": {
+                  "value": "searchQuery=kaas:relevance:NutriscoreLetter:E",
+                  "__typename": "InternalPageQuery"
+                },
+                "__typename": "PageQuery"
+              },
+              "selected": false,
+              "__typename": "FacetValue"
+            }
+          ],
+          "__typename": "Facet"
+        }
+      ],
+      "sorts": [
+        {
+          "name": "Relevantie",
+          "selected": true,
+          "code": "relevance",
+          "__typename": "Sort"
+        },
+        {
+          "name": "Prijs/stuk",
+          "selected": false,
+          "code": "price-piece",
+          "__typename": "Sort"
+        },
+        {
+          "name": "Nutriscore",
+          "selected": false,
+          "code": "nutriscore",
+          "__typename": "Sort"
+        }
+      ],
+      "pagination": {
+        "currentPage": 0,
+        "totalResults": 1064,
+        "totalPages": 107,
+        "sort": "relevance",
+        "__typename": "Pagination"
+      },
+      "freeTextSearch": "kaas",
+      "spellingSuggestionUsed": false,
+      "currentQuery": {
+        "query": {
+          "value": "kaas:relevance",
+          "__typename": "InternalPageQuery"
+        },
+        "__typename": "PageQuery"
+      },
+      "productsCountByCategory": [
+        {
+          "categoryCode": "v2DAI",
+          "count": 1020,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRI",
+          "count": 146,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPE",
+          "count": 127,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIO",
+          "count": 96,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FRO",
+          "count": 11,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DEL",
+          "count": 9,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SAL",
+          "count": 9,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEA",
+          "count": 7,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2PET",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SWE",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2CAN",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICHE",
+          "count": 353,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOG",
+          "count": 283,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMIL",
+          "count": 146,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPELAC",
+          "count": 110,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIO",
+          "count": 85,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMIL",
+          "count": 84,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIBUT",
+          "count": 82,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIDES",
+          "count": 76,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILVEG",
+          "count": 62,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICUL",
+          "count": 39,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIPRE",
+          "count": 31,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECO",
+          "count": 17,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPEVEG",
+          "count": 16,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIEGG",
+          "count": 10,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPE",
+          "count": 8,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPRE",
+          "count": 6,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELAPE",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2PETCAT",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROVEG",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SWEBRE",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAPOU",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAVEG",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELDIS",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2SWECRA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOFAI",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2CANPRE",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELSNA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELSTA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPIZ",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEADEL",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALSAU",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPEGLU",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGFRU",
+          "count": 96,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAI",
+          "count": 84,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICHEOTH",
+          "count": 78,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILVEG",
+          "count": 62,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2SPELACMIL",
+          "count": 59,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICHESLI",
+          "count": 57,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICHESPR",
+          "count": 56,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGPLA",
+          "count": 55,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHEASS",
+          "count": 39,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGDRI",
+          "count": 35,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIDESPUD",
+          "count": 34,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPELACYAO",
+          "count": 34,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGLAC",
+          "count": 32,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICHERAS",
+          "count": 30,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICULCRE",
+          "count": 29,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICHEBLO",
+          "count": 26,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGCOT",
+          "count": 26,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHECHE",
+          "count": 22,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIBUTSWE",
+          "count": 22,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIBUTCOO",
+          "count": 21,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIBUTSPRE",
+          "count": 21,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILFLA",
+          "count": 21,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILFLA",
+          "count": 21,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGBIF",
+          "count": 20,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODRI",
+          "count": 19,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIYOGKID",
+          "count": 19,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODAI",
+          "count": 17,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILSEM",
+          "count": 17,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILSEM",
+          "count": 17,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHEVGE",
+          "count": 16,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPEVEGCHE",
+          "count": 16,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIBUTSAL",
+          "count": 15,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIDESMOU",
+          "count": 15,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIDESOTH",
+          "count": 15,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILCON",
+          "count": 14,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIPREFRE",
+          "count": 14,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILCON",
+          "count": 14,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIOSPE",
+          "count": 13,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILFUL",
+          "count": 12,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILFUL",
+          "count": 12,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIDESRIC",
+          "count": 10,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIPREPAN",
+          "count": 10,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2SPELACCRE",
+          "count": 9,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIEGGFRE",
+          "count": 9,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILLAC",
+          "count": 9,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILLAC",
+          "count": 9,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHELAC",
+          "count": 8,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2SPELACCHE",
+          "count": 8,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHEBLE",
+          "count": 6,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHERCL",
+          "count": 6,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECOSPE",
+          "count": 6,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHECAM",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICULSAU",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAICULWHI",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILFRE",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILSKI",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILFRE",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILSKI",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2PETCATSNA",
+          "count": 5,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "V2DAICHEPLA",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODRI",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIPRESPR",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPECHI",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPESAL",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SWEBRESPR",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIBUTOTH",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPRESTA",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROVEGPRE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAPOUCHI",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAVEGSID",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIDESFLA",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIPRECOU",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELAPEOLI",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPREAPP",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOFAIDAI",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIOMEA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2CANPREPAS",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIEGGCOO",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIMILGOA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DAIPREBAK",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELAPEDIP",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELAPETAP",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELAPEZAK",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELDISOTH",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELDISPAS",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELSNASAL",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELSTAFOC",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DRIMILGOA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPIZUSA",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPRECOU",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROVEGOTH",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEADELOTH",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALSAUPAS",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SPEGLUFRO",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIYOG",
+          "count": 33,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAICHE",
+          "count": 19,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODRIMIL",
+          "count": 19,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIMILVEG",
+          "count": 12,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIOSPELAC",
+          "count": 11,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIMIL",
+          "count": 7,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODAIYOG",
+          "count": 6,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECOSPELAC",
+          "count": 6,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODAICUL",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODAIMILVEG",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODRIMIL",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAICUL",
+          "count": 4,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOECODAICHE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIEGG",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIPRE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPRESTACRE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROVEGPRECHE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAPOUCHIPRE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPECHISPE",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPESALCRA",
+          "count": 3,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIDES",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIOSPEVEG",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAVEGSIDSCH",
+          "count": 2,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOFAIDAIYOG",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIODAIBUT",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2BIOISBIOMEAVEG",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2DELDISPASPAS",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2FROPRECOUNON",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEADELOTHDIC",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2MEAVEGSIDBUR",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPECHITOR",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        },
+        {
+          "categoryCode": "v2SALAPESALGRI",
+          "count": 1,
+          "__typename": "CategoryProductCount"
+        }
+      ],
+      "__typename": "ProductSearchList"
+    }
+  }
+}

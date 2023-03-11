@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio'
 import got from 'got'
+import { getAPIResponse } from './util.js'
 
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
     return {
@@ -71,50 +72,49 @@ export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
         },
     })
     const $ = cheerio.load(response.body)
-    
-    
+
     const products = [] as Product[]
 
     for (let i = 1; i < 11; i++) {
         const price =
             normalize(
-                $(
-                    `${selector} > article:nth-child(${i}) > div > a > div > div > div > span:nth-child(1)`,
-                ).html(),
-            ) + ',' +
-            normalize(
-                $(
-                    `${selector} > article:nth-child(${i}) > div > a > div > div > div > span:nth-child(3)`,
-                ).html(),
-            )
+                $(`${selector} > article:nth-child(${i}) > div > a > div > div > div > span:nth-child(1)`).html(),
+            ) +
+            ',' +
+            normalize($(`${selector} > article:nth-child(${i}) > div > a > div > div > div > span:nth-child(3)`).html())
 
         products.push({
-            title: normalize(
-                $(
-                    `${selector} > article:nth-child(${i}) > div > div > a > strong > span`,
-                ).html(),
-            ),
-            image: normalize(
-                $(
-                    `${selector} > article:nth-child(${i}) > div > a > figure > div > img`,
-                ).attr('src'),
-            ),
-            weight: normalizeWeight(
-                $(
-                    `${selector} > article:nth-child(${i}) > div > a > div > div > span`,
-                ).html(),
-            ),
+            title: normalize($(`${selector} > article:nth-child(${i}) > div > div > a > strong > span`).html()),
+            image: normalize($(`${selector} > article:nth-child(${i}) > div > a > figure > div > img`).attr('src')),
+            weight: normalizeWeight($(`${selector} > article:nth-child(${i}) > div > a > div > div > span`).html()),
             price,
         })
     }
     return products
 }
 
-function normalize(data: string | null | undefined): string {
-    return (data || '').trim().replace(/&nbsp;/g, '').replace(/€/,'')
+export async function scrapeProductsDelhaize(searchTerm: string): Promise<Product[]> {
+    const res = await getAPIResponse(searchTerm)
+    console.log(JSON.stringify(res, null, 2))
+    const products = res.data.productSearch.products
+    return products.map(product => {
+        return {
+            priceKilo: product.price.supplementaryPriceLabel1,
+            image: `https://static.delhaize.be${product.images.filter(image => image.format == 'respListGrid')[0].url}`,
+            title: product.name,
+            price: product.price.unitPriceFormatted
+        }
+    })
 }
 
-function normalizeWeight(data: string | null | undefined): number{
+function normalize(data: string | null | undefined): string {
+    return (data || '')
+        .trim()
+        .replace(/&nbsp;/g, '')
+        .replace(/€/, '')
+}
+
+function normalizeWeight(data: string | null | undefined): number {
     const weight = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/)![0] : '0'
     return parseInt(weight)
 }
@@ -122,14 +122,14 @@ function normalizeWeight(data: string | null | undefined): number{
 
 
 function removeFalses(data: Product[], shop: 'colruyt' | 'ah'): Product[] {
-    if(shop == 'colruyt'){
-        return data.filter( product => product.price && product.brand && product.weight && product.title && product.priceKilo && product.image)
+    if (shop == 'colruyt') {
+        return data.filter(
+            product =>
+                product.price && product.brand && product.weight && product.title && product.priceKilo && product.image,
+        )
     }
-    return data.filter( product => product.price && product.brand && product.weight && product.title && product.image)
-
+    return data.filter(product => product.price && product.brand && product.weight && product.title && product.image)
 }
-
-
 
 type Product = {
     title: string
@@ -137,10 +137,39 @@ type Product = {
     weight?: number 
     brand?: string
     priceKilo?: string
-    image: string
+    image?: string
 }
 
 type ProductList = {
     colruyt: Product[]
     ah: Product[]
+    delhaize: Product[]
+}
+
+export type DelhaizeAPIResponse = {
+    data: APIData
+}
+
+type APIData = {
+    productSearch: APIProductSearch
+}
+
+type APIProductSearch = {
+    products: APIProduct[]
+}
+
+type APIProduct = {
+    images: APIImage[]
+    name: string
+    price: APIPrice
+}
+
+type APIImage = {
+    format: string
+    url: string
+}
+
+type APIPrice = {
+    unitPriceFormatted: string
+    supplementaryPriceLabel1: string
 }
