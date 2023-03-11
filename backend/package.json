@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/cheerio": "^0.22.31",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.14",
     "@types/jsonwebtoken": "^8.5.9",
@@ -19,10 +20,10 @@
     "lint": "prettier --config .prettierrc 'src/*.ts' --write"
   },
   "dependencies": {
-    "@types/cheerio": "^0.22.31",
     "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "got": "^11.8.2",
     "jsonwebtoken": "^8.5.1",
     "luxon": "^3.0.4"
   }
