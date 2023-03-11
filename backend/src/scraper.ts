@@ -111,7 +111,7 @@ export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
 }
 
 function normalize(data: string | null | undefined): string {
-    return (data || '').trim().replace(/&nbsp;/g, '')
+    return (data || '').trim().replace(/&nbsp;/g, '').replace(/€/,'')
 }
 
 function normalizeWeight(data: string | null | undefined): number{
@@ -120,7 +120,7 @@ function normalizeWeight(data: string | null | undefined): number{
 }
 
 function normalizePrice(data: string | null | undefined): number{ 
-    const price = (data || '').trim().replace(/€ /,'') ? (data || '').trim().replace(/€ /,'')![0] : '0'
+    const price = (data || '').trim().replace(/€/,'') ? (data || '').trim().replace(/€/,'')![0] : '0'
     return parseInt(price)
 }
 

@@ -50,22 +50,20 @@ export async function scrapeProductsAH(searchTerm) {
     return products;
 }
 function normalize(data) {
-    return (data || '').trim().replace(/&nbsp;/g, '');
+    return (data || '').trim().replace(/&nbsp;/g, '').replace(/€/, '');
 }
 function normalizeWeight(data) {
     const weight = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/)[0] : '0';
     return parseInt(weight);
 }
 function normalizePrice(data) {
-    const price = (data || '').trim().replace(/€ /, '') ? (data || '').trim().replace(/€ /, '')[0] : '0';
+    const price = (data || '').trim().replace(/€/, '') ? (data || '').trim().replace(/€/, '')[0] : '0';
     return parseInt(price);
 }
 function removeFalses(data, shop) {
     if (shop == 'colruyt') {
         return data.filter(product => product.price && product.brand && product.weight && product.title && product.priceKilo && product.image);
     }
-    if (shop == 'ah') {
-        return data.filter(product => product.price && product.brand && product.weight && product.title && product.image);
-    }
+    return data.filter(product => product.price && product.brand && product.weight && product.title && product.image);
 }
 //# sourceMappingURL=scraper.js.map
