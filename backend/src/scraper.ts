@@ -101,7 +101,6 @@ export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
         })
     }
 
-    console.log(products)
     return products
 }
 
