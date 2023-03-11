@@ -1,6 +1,5 @@
 import got from 'got'
-import { DelhaizeAPIResponse } from './scraper'
-
+import { DelhaizeAPIResponse, Product } from './scraper'
 
 // Custom API call for Delhaize
 export async function getAPIResponse(searchTerm: string): Promise<DelhaizeAPIResponse> {
@@ -27,4 +26,28 @@ export async function getAPIResponse(searchTerm: string): Promise<DelhaizeAPIRes
         variables,
     )}&extensions=${JSON.stringify(extensions)}`
     return await got(url, { headers }).json<DelhaizeAPIResponse>()
+}
+
+// Cleans the string to delete weird characters
+export function normalize(data: string | null | undefined): string {
+    return (data || '')
+        .trim()
+        .replace(/&nbsp;/g, '')
+        .replace(/€/, '')
+}
+
+// Cleans the weight
+export function normalizeWeight(data: string | null | undefined): number {
+    const weight = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/)![0] : '0'
+    return parsePrice(weight)
+}
+
+// Remove empty products
+export function removeFalses(data: Product[]): Product[] {
+    return data.filter(product => product.price && product.priceKilo && product.title && product.image)
+}
+
+// Replaces price commas with dots
+export function parsePrice(price: string): number {
+    return +parseFloat(price.replace(/,/, '.')).toFixed(2)
 }

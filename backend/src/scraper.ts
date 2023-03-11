@@ -1,13 +1,18 @@
 import * as cheerio from 'cheerio'
 import got from 'got'
-import { getAPIResponse } from './util.js'
+import { ProductList, Product, APIProduct } from './types.js'
+import { getAPIResponse, normalize, normalizeWeight, parsePrice, removeFalses } from './util.js'
 
 // Scrapes all stores and returns the products, sorted by price per kilo
 export async function scrapeProducts(searchTerm: string): Promise<ProductList> {
+    const colruyt = removeFalses(await scrapeProductsColruyt(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
+    const ah = removeFalses(await scrapeProductsAH(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
+    const delhaize = removeFalses(await scrapeProductsDelhaize(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
     return {
-        colruyt: removeFalses(await scrapeProductsColruyt(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo),
-        ah: removeFalses(await scrapeProductsAH(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo),
-        delhaize: removeFalses(await scrapeProductsDelhaize(searchTerm)).sort((a,b) => a.priceKilo - b.priceKilo)
+        colruyt,
+        ah,
+        delhaize,
+        best_choice: getBestChoice([colruyt, ah, delhaize])
     }
 }
 
@@ -107,7 +112,7 @@ export async function scrapeProductsAH(searchTerm: string): Promise<Product[]> {
 // Scrape the Delhaize products
 export async function scrapeProductsDelhaize(searchTerm: string): Promise<Product[]> {
     const res = await getAPIResponse(searchTerm)
-    const products = res.data.productSearch.products
+    const products = res.data.productSearch.products as APIProduct[]
     return products.map(product => {
         return {
             priceKilo: parsePrice(product.price.supplementaryPriceLabel1),
@@ -119,71 +124,13 @@ export async function scrapeProductsDelhaize(searchTerm: string): Promise<Produc
     })
 }
 
-// Cleans the string to delete weird characters
-function normalize(data: string | null | undefined): string {
-    return (data || '')
-        .trim()
-        .replace(/&nbsp;/g, '')
-        .replace(/€/, '')
+function getBestChoice(productsStores: Product[][]): string {
+    const average = productsStores.map(store => getAveragePrice(store))
 }
 
-// Cleans the weight
-function normalizeWeight(data: string | null | undefined): number {
-    const weight = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/)![0] : '0'
-    return parsePrice(weight)
-}
-
-// Remove empty products
-function removeFalses(data: Product[]): Product[] {
-    return data.filter(product => product.price && product.priceKilo && product.title && product.image)
-}
-
-// Replaces price commas with dots
-function parsePrice(price: string): number {
-    return +parseFloat(price.replace(/,/, '.')).toFixed(2)
-}
-
-
-// Types
-type Product = {
-    title: string
-    price: number
-    brand?: string
-    priceKilo: number
-    image: string
-}
-
-type ProductList = {
-    colruyt: Product[]
-    ah: Product[]
-    delhaize: Product[]
-}
-
-export type DelhaizeAPIResponse = {
-    data: APIData
-}
-
-type APIData = {
-    productSearch: APIProductSearch
-}
-
-type APIProductSearch = {
-    products: APIProduct[]
-}
-
-type APIProduct = {
-    images: APIImage[]
-    name: string
-    price: APIPrice
-    manufacturerName: string
-}
-
-type APIImage = {
-    format: string
-    url: string
-}
-
-type APIPrice = {
-    unitPriceFormatted: string
-    supplementaryPriceLabel1: string
+function getAveragePrice(products: Product[]): number {
+    return products.map(product => product.priceKilo).reduce(
+        (accumulator, currentValue) => accumulator + currentValue,
+        0
+    ) / products.length
 }
