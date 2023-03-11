@@ -119,13 +119,22 @@ function normalizeWeight(data: string | null | undefined): number{
     return parseInt(weight)
 }
 
-function removeFalses
+function normalizePrice(data: string | null | undefined): number{ 
+    const price = (data || '').trim().match(/\d+/) ? (data || '').trim().match(/\d+/) : '0'
+    return parseInt(price)
+}
 
-['', '2', 'dd'].filter( product => product.price && product.brand)
-
-if (!(price && brand ...)) {
+function removeFalses(data: Product[], shop: 'colruyt' | 'ah'): Product[] {
+    if(shop == 'colruyt'){
+        return data.filter( product => product.price && product.brand && product.weight && product.title && product.priceKilo && product.image)
+    }
+    if(shop == 'ah'){
+        return data.filter( product => product.price && product.brand && product.weight && product.title && product.image)
+    }
 
 }
+
+
 
 type Product = {
     title: string
